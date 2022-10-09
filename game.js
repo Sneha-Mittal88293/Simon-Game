@@ -21,6 +21,7 @@
     animatePress(userChosenColour);
     checkAnswer(userClickedPattern.length - 1);
  });
+ 
 
  function checkAnswer(currentLevel){
     if(userClickedPattern[currentLevel] === gamePattern[currentLevel]){
